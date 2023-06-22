@@ -23,7 +23,7 @@ const moment = require("moment");
 let totalDuration = moment.duration();
 
 const directory =
-  "/mnt/761CCCA81CCC6529/2025/Courses/[ 0 ][ 1 ]/[TutsNode.com] - React - The Complete Guide (incl Hooks, React Router, Redux)/18 Diving into Redux (An Alternative To The Context API)";
+  "Enter Your Path here";
 fs.readdir(directory, (err, files) => {
   if (err) {
     console.error("Error reading directory:", err);
